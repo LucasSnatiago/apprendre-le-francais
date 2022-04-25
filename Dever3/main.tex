@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{ulem}
+\usepackage{graphicx}
+
+\graphicspath{ {./images} }
+
+\author{Lucas Santiago de Oliveira}
+\date{25 Avril}
+\title{Heur}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    \newpage
+    \import{pages/heur}{heurs.tex}
+
+    \import{pages/page4}{5.tex}
+    \import{pages/page4}{6.tex}
+    \import{pages/page4}{7.tex}
+    \import{pages/page4}{8.tex}
+
+    \import{pages/page5}{9.tex}
+    \import{pages/page5}{11.tex}
+
+\end{document}
