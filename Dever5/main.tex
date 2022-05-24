@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{ulem}
+\usepackage{enumitem}
+
+\title{Découvrez la Grammaire}
+\author{Oliveira, Lucas}
+\date{Le 24 Mai 2022 - vingt-quatre Mai deux-mille vingt-deux}
+
+% Right arrow
+\newcommand{\rar}{$\rightarrow$ }
+\newcommand{\und}{\underline}
+\newcommand{\txb}{\textbf}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    \newpage
+    \import{./exercises}{cahier_p8.tex}
+
+    \newpage
+    \import{./exercises}{cahier_p9.tex}
+\end{document}
